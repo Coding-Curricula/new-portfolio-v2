@@ -11,8 +11,8 @@
   --ink:       #111111;   /* near-black text & borders */
   --ink-soft:  #3a3a3a;
   --muted:     #6a6a6a;
-  --accent:    #ff3a00;   /* hot brutalist orange */
-  --accent-ink: #111111;  /* readable ink on accent backgrounds */
+  --accent:    #1a4dff;   /* hot brutalist blue */
+  --accent-ink: #f4f1ea;  /* off-white ink for readable contrast on blue */
   --hairline:  #111111;
 
   /* ---------- Typography ---------- */
@@ -73,8 +73,8 @@
   --ink:       #f4f1ea;
   --ink-soft:  #d4cfbf;
   --muted:     #9a9a9a;
-  --accent:    #ff3a00;
-  --accent-ink: #111111;
+  --accent:    #1a4dff;
+  --accent-ink: #f4f1ea;
   --hairline:  #f4f1ea;
 }
 
@@ -88,8 +88,8 @@
     --ink:       #f4f1ea;
     --ink-soft:  #d4cfbf;
     --muted:     #9a9a9a;
-    --accent:    #ff3a00;
-    --accent-ink: #111111;
+    --accent:    #1a4dff;
+    --accent-ink: #f4f1ea;
     --hairline:  #f4f1ea;
   }
 }

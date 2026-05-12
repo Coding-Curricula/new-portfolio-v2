@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of [Your Name] — web developer. Built with HTML and CSS. Zero JavaScript.">
+  <meta name="description" content="Portfolio of Chris Boydstun — web developer in Texas. Built with HTML and CSS. Zero JavaScript.">
   <meta name="color-scheme" content="light dark">
-  <title>[Your Name] // Web Developer</title>
+  <title>Chris Boydstun // Web Developer</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/tokens.css">
@@ -24,7 +24,7 @@
   <header class="site-header">
     <div class="container site-header__inner">
       <a class="brand" href="#top">
-        <span class="brand__bracket">[</span>YOUR NAME<span class="brand__bracket">]</span>
+        <span class="brand__bracket">[</span>CHRIS BOYDSTUN<span class="brand__bracket">]</span>
       </a>
 
       <label for="nav-toggle" class="hamburger" role="button" tabindex="0" aria-label="Toggle navigation menu">
@@ -55,10 +55,10 @@
     <section id="about" class="hero">
       <div class="container hero__grid">
         <div class="hero__copy">
-          <p class="hero__eyebrow">// PORTFOLIO_v1.0</p>
+          <p class="hero__eyebrow">// PORTFOLIO_v2.0</p>
           <h1 class="hero__title">
             HI, I&rsquo;M<br>
-            <span class="hero__name">YOUR&nbsp;NAME</span>.
+            <span class="hero__name">CHRIS&nbsp;BOYDSTUN</span>.
           </h1>
           <p class="hero__tagline">
             I build the web with stubborn HTML, opinionated CSS, and absolutely zero JavaScript.
@@ -72,8 +72,8 @@
         <aside class="hero__card" aria-label="At a glance">
           <h2 class="hero__card-title">// AT_A_GLANCE</h2>
           <dl class="hero__card-list">
-            <dt>BASED IN</dt><dd>Earth, mostly</dd>
-            <dt>FOCUS</dt><dd>Static sites, design systems</dd>
+            <dt>BASED IN</dt><dd>San Antonio, TX</dd>
+            <dt>FOCUS</dt><dd>Web apps &amp; local-business sites</dd>
             <dt>YEARS</dt><dd>Many. Some good ones.</dd>
             <dt>STATUS</dt><dd><span class="dot dot--live"></span>Available for work</dd>
           </dl>
@@ -84,20 +84,20 @@
         <div class="about">
           <h2 class="section-label">// ABOUT</h2>
           <p class="about__lede">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. I make websites the way carpenters make
-            chairs: one well-cut joint at a time, with tools you can sharpen yourself.
+            I&rsquo;m Chris &mdash; a web developer in Texas. I build sites and apps for real businesses, and I keep
+            this portfolio in stubborn hand-written HTML and CSS to prove the platform can still carry its own weight.
           </p>
           <details class="about__more">
             <summary>More about me &raquo;</summary>
             <div class="about__more-body">
               <p>
-                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Off the clock I&rsquo;m with my family and our dogs, which is to say outside more than inside.
+                I&rsquo;m partial to the color blue &mdash; which is why this site wears it &mdash; and to
+                <em>The Wire</em>, which remains the best argument that television can be literature.
               </p>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                I work on web apps for the San Antonio area and ship the occasional mobile app. If you&rsquo;ve
+                got something to build, I&rsquo;d like to hear about it.
               </p>
             </div>
           </details>
@@ -112,28 +112,26 @@
 
         <input type="radio" name="filter" id="f-all" class="state-input" checked>
         <input type="radio" name="filter" id="f-web" class="state-input">
-        <input type="radio" name="filter" id="f-cli" class="state-input">
-        <input type="radio" name="filter" id="f-other" class="state-input">
+        <input type="radio" name="filter" id="f-app" class="state-input">
 
         <div class="filter-tabs" role="tablist" aria-label="Project filters">
-          <label for="f-all"   class="filter-tab" role="tab" tabindex="0">ALL</label>
-          <label for="f-web"   class="filter-tab" role="tab" tabindex="0">WEB</label>
-          <label for="f-cli"   class="filter-tab" role="tab" tabindex="0">CLI</label>
-          <label for="f-other" class="filter-tab" role="tab" tabindex="0">OTHER</label>
+          <label for="f-all" class="filter-tab" role="tab" tabindex="0">ALL</label>
+          <label for="f-web" class="filter-tab" role="tab" tabindex="0">WEB</label>
+          <label for="f-app" class="filter-tab" role="tab" tabindex="0">APP</label>
         </div>
 
         <ul class="project-grid">
 
           <li class="project-card" data-cat="web">
-            <a href="#" class="project-card__link">
+            <a href="https://satxbounce.com" class="project-card__link" rel="noopener">
               <div class="project-card__thumb">
                 <img src="assets/img/project-01.svg" alt="" loading="lazy">
               </div>
               <div class="project-card__body">
                 <span class="project-card__tag">WEB</span>
-                <h3 class="project-card__title">PROJECT_ONE</h3>
+                <h3 class="project-card__title">SATXBOUNCE.COM</h3>
                 <p class="project-card__desc">
-                  A lorem ipsum static-site generator that turns markdown into something actually readable.
+                  San Antonio bounce-house rentals &mdash; booking, inventory, and a fast public site.
                 </p>
                 <span class="project-card__cta">VIEW &rarr;</span>
               </div>
@@ -141,79 +139,48 @@
           </li>
 
           <li class="project-card" data-cat="web">
-            <a href="#" class="project-card__link">
+            <a href="https://satxritas.com" class="project-card__link" rel="noopener">
               <div class="project-card__thumb">
                 <img src="assets/img/project-02.svg" alt="" loading="lazy">
               </div>
               <div class="project-card__body">
                 <span class="project-card__tag">WEB</span>
-                <h3 class="project-card__title">PROJECT_TWO</h3>
+                <h3 class="project-card__title">SATXRITAS.COM</h3>
                 <p class="project-card__desc">
-                  Consectetur adipiscing landing-page kit, mobile-first, no framework, no apologies.
+                  Frozen margarita delivery for SATX events &mdash; menu, ordering flow, and routing.
                 </p>
                 <span class="project-card__cta">VIEW &rarr;</span>
               </div>
             </a>
           </li>
 
-          <li class="project-card" data-cat="cli">
-            <a href="#" class="project-card__link">
+          <li class="project-card" data-cat="web">
+            <a href="https://gopartypad.com" class="project-card__link" rel="noopener">
               <div class="project-card__thumb">
                 <img src="assets/img/project-03.svg" alt="" loading="lazy">
               </div>
               <div class="project-card__body">
-                <span class="project-card__tag">CLI</span>
-                <h3 class="project-card__title">PROJECT_THREE</h3>
+                <span class="project-card__tag">WEB</span>
+                <h3 class="project-card__title">GOPARTYPAD.COM</h3>
                 <p class="project-card__desc">
-                  Sed do eiusmod terminal tool that does one thing well and complains loudly when misused.
+                  Party-rental marketplace connecting hosts with local contractors and equipment.
                 </p>
                 <span class="project-card__cta">VIEW &rarr;</span>
               </div>
             </a>
           </li>
 
-          <li class="project-card" data-cat="cli">
-            <a href="#" class="project-card__link">
+          <!-- TODO: real App Store URL for PartyPad Contractor App -->
+          <li class="project-card" data-cat="app">
+            <a href="#" class="project-card__link" rel="noopener">
               <div class="project-card__thumb">
                 <img src="assets/img/project-04.svg" alt="" loading="lazy">
               </div>
               <div class="project-card__body">
-                <span class="project-card__tag">CLI</span>
-                <h3 class="project-card__title">PROJECT_FOUR</h3>
+                <span class="project-card__tag">APP</span>
+                <h3 class="project-card__title">PARTYPAD CONTRACTOR APP</h3>
                 <p class="project-card__desc">
-                  Tempor incididunt git plugin that makes branch management slightly less of a tragedy.
-                </p>
-                <span class="project-card__cta">VIEW &rarr;</span>
-              </div>
-            </a>
-          </li>
-
-          <li class="project-card" data-cat="other">
-            <a href="#" class="project-card__link">
-              <div class="project-card__thumb">
-                <img src="assets/img/project-05.svg" alt="" loading="lazy">
-              </div>
-              <div class="project-card__body">
-                <span class="project-card__tag">OTHER</span>
-                <h3 class="project-card__title">PROJECT_FIVE</h3>
-                <p class="project-card__desc">
-                  Ut enim ad minim physical-web hardware experiment that occasionally even works.
-                </p>
-                <span class="project-card__cta">VIEW &rarr;</span>
-              </div>
-            </a>
-          </li>
-
-          <li class="project-card" data-cat="other">
-            <a href="#" class="project-card__link">
-              <div class="project-card__thumb">
-                <img src="assets/img/project-06.svg" alt="" loading="lazy">
-              </div>
-              <div class="project-card__body">
-                <span class="project-card__tag">OTHER</span>
-                <h3 class="project-card__title">PROJECT_SIX</h3>
-                <p class="project-card__desc">
-                  Veniam quis nostrud zine, hand-set in a monospace typeface and printed on real paper.
+                  iOS companion app for contractors fulfilling PartyPad jobs &mdash; on the Apple App Store.
                 </p>
                 <span class="project-card__cta">VIEW &rarr;</span>
               </div>
@@ -271,15 +238,16 @@
           <p class="contact__lede">
             Got a project, an idea, or a just-curious question? Send a signal.
           </p>
+          <!-- TODO: replace social hrefs with real handles -->
           <ul class="social-list">
-            <li><a class="social-link" href="mailto:hello@example.com">EMAIL &rarr;</a></li>
+            <li><a class="social-link" href="mailto:chrisboydstun@gmail.com">EMAIL &rarr;</a></li>
             <li><a class="social-link" href="https://github.com/" rel="me noopener">GITHUB &rarr;</a></li>
             <li><a class="social-link" href="https://www.linkedin.com/" rel="me noopener">LINKEDIN &rarr;</a></li>
             <li><a class="social-link" href="https://bsky.app/" rel="me noopener">BLUESKY &rarr;</a></li>
           </ul>
         </div>
 
-        <form class="contact-form" action="mailto:hello@example.com" method="post" enctype="text/plain" aria-label="Contact form">
+        <form class="contact-form" action="mailto:chrisboydstun@gmail.com" method="post" enctype="text/plain" aria-label="Contact form">
           <p class="contact-form__note">// FORM_NOTE: this opens your mail client &mdash; no JavaScript here.</p>
 
           <label class="field">
@@ -307,7 +275,7 @@
   <footer class="site-footer">
     <div class="container site-footer__inner">
       <p class="site-footer__copy">
-        &copy; <time datetime="2026">2026</time> YOUR&nbsp;NAME &mdash;
+        &copy; <time datetime="2026">2026</time> CHRIS&nbsp;BOYDSTUN &mdash;
         <span>Hand-built with HTML &amp; CSS. No JavaScript was harmed in the making of this portfolio.</span>
       </p>
       <p class="site-footer__meta">
