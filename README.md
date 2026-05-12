@@ -1,5 +1,34 @@
 # New Portfolio - v2 - forked from cboydstun
 
+A static, hand-authored portfolio site built with HTML and CSS. Zero JavaScript — interactivity (theme toggle, mobile nav, project filters) is implemented with hidden checkbox/radio inputs and the CSS general-sibling (`~`) combinator.
+
+## Stack
+
+- HTML5
+- CSS3 with custom properties for design tokens
+- No build step, no package manager, no dependencies
+
+## Layout
+
+- `index.html` — the entire page
+- `css/reset.css` — minimal modern reset
+- `css/tokens.css` — design tokens (color, type, spacing, motion) and light/dark theme variables
+- `css/base.css` — element defaults and reusable primitives
+- `css/layout.css` — page chrome, container, breakpoints
+- `css/components.css` — section/component styles *(to be authored)*
+- `css/interactive.css` — `:checked`-driven behavior, including the dark-theme override *(to be authored)*
+
+## Preview locally
+
+Open `index.html` directly in a browser, or serve the directory with any static server:
+
+```sh
+python3 -m http.server 8000
+# then visit http://localhost:8000
+```
+
+## License
+
 All Rights Reserved
 
 Copyright (c) [2026] [cboydstun]
